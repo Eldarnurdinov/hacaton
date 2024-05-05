@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.container{
+  max-width: 1816px;
+  height: 100%;
+  margin: auto;
+}
+
+#section {
+  background: url(./img/png/background.png) no-repeat center/cover;
+  height: 100%;
+}
+
+.section-name{
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+  padding: 69px 0 34px 0;
+}
+.cards{
+  display: flex;
+  gap: 20px;
+}
+.card {
+width: 250px;
+height: 340px;
+background: aqua;
+position: relative;
+}
+.card img {
+width: 100%;
+height: 100%;
+}
+.card-text {
+background-color: #00000070;
+color: #fff;
+position: absolute;
+bottom: 0;
+width: 100%;
+opacity: 0;
+transition: opacity 0.2s linear;
+}
+.card-text button{
+  color: #fff;
+  padding: 10px 34px;
+  background: #E13C52;
+  border-radius: 60px;
+  border: none
+  ;
+}
+.card:hover {
+transform: scale(1.4);
+.card-text {
+opacity: 1;
+}
+}
+.section-btn  button{
+padding:  24px 287px 29px 287px;
+color: #fff;
+font-weight: 400;
+font-size: 32px;
+background: black;
+border: 1px solid #848484;
+margin: 67px 54px;
+span{
+  font-weight: 700;
+}
+}
+.section-btn{
+  display: flex;
+  justify-content: end;
+  
+}
+
+.view p{
+  display: inline-block;
+  color: #fff;
+  margin-right: 26px;  
+  margin-top: 39px;
+  border-bottom: 1px solid #fff;
+  margin-left: 46px;
+} 
+.section-2,
+.section-4 {
+  display: flex;
+  align-items: center;
+}
+
+.section-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 82px;
+}
+
+.section-4 .view{
+  margin-left: 171px;
+}
+

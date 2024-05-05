@@ -9,7 +9,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
 }
-.container{
+.container {
   max-width: 1816px;
   height: 100%;
   margin: auto;
@@ -20,75 +20,73 @@ body {
   height: 100%;
 }
 
-.section-name{
+.section-name {
   font-weight: 400;
   font-size: 32px;
   color: #fff;
   padding: 69px 0 34px 0;
 }
-.cards{
+.cards {
   display: flex;
   gap: 20px;
 }
 .card {
-width: 250px;
-height: 340px;
-background: aqua;
-position: relative;
+  width: 250px;
+  height: 340px;
+  background: aqua;
+  position: relative;
 }
 .card img {
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .card-text {
-background-color: #00000070;
-color: #fff;
-position: absolute;
-bottom: 0;
-width: 100%;
-opacity: 0;
-transition: opacity 0.2s linear;
+  background-color: #00000070;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.2s linear;
 }
-.card-text button{
+.card-text button {
   color: #fff;
   padding: 10px 34px;
-  background: #E13C52;
+  background: #e13c52;
   border-radius: 60px;
-  border: none
-  ;
+  border: none;
 }
 .card:hover {
-transform: scale(1.4);
-.card-text {
-opacity: 1;
+  transform: scale(1.4);
+  .card-text {
+    opacity: 1;
+  }
 }
+.section-btn button {
+  padding: 24px 287px 29px 287px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+  background: black;
+  border: 1px solid #848484;
+  margin: 67px 54px;
+  span {
+    font-weight: 700;
+  }
 }
-.section-btn  button{
-padding:  24px 287px 29px 287px;
-color: #fff;
-font-weight: 400;
-font-size: 32px;
-background: black;
-border: 1px solid #848484;
-margin: 67px 54px;
-span{
-  font-weight: 700;
-}
-}
-.section-btn{
+.section-btn {
   display: flex;
   justify-content: end;
-  
 }
 
-.view p{
+.view p {
   display: inline-block;
   color: #fff;
-  margin-right: 26px;  
+  margin-right: 26px;
   margin-top: 39px;
   border-bottom: 1px solid #fff;
   margin-left: 46px;
-} 
+}
 .section-2,
 .section-4 {
   display: flex;
@@ -101,7 +99,6 @@ span{
   margin-top: 82px;
 }
 
-.section-4 .view{
+.section-4 .view {
   margin-left: 171px;
 }
-
